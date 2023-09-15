@@ -10,6 +10,6 @@ for (let i = 0; i < options.length; i++) {
 }
 
 $(document).ready(function () {
-    var today = new Date().toISOString().split('T')[0];
-    $("#form_dat").attr('max', today);
+    let today = new Date().toISOString().split('T')[0];
+    $("#form_date").attr('max', today);
 });
